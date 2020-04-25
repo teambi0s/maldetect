@@ -19,7 +19,8 @@ $ source maldetect/bin/activate
 ```
 
 
-Make sure that you add your API_KEY from virustotal and change the secret key before running it. 
+1) Make sure to export the API_KEY from virustotal to .env
+2) Make sure to create and export a secret_key for django to .env
 
 
 
