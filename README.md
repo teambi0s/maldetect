@@ -2,6 +2,13 @@
 
 A web application built using django to detect malicious URL(s) which include phishing/social engineering/malware infected URL(s).
 
+This is built using Virustotal API (https://support.virustotal.com/hc/en-us/articles/115002100149-API).
+
+
+# How it works?
+
+The url supplied by the user is checked with various databases with the support of virustotal API
+
 
 # To run 
 
