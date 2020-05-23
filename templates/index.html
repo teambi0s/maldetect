@@ -15,12 +15,14 @@ document.addEventListener('DOMContentLoaded', (event) => {
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js"></script>
 <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.js"></script>
 </head>
-<body class="dark"><header class="site-header">
+<body class="dark">
+<header class="site-header">
 <div class="site-title"><p>
 <a style="cursor: pointer" onclick="localStorage.setItem('mode', (localStorage.getItem('mode') || 'dark') === 'dark' ? 'bright' : 'dark'); localStorage.getItem('mode') === 'dark' ? document.querySelector('body').classList.add('dark') : document.querySelector('body').classList.remove('dark')" title="Switch to light or dark theme">🌓 Light | dark mode</a>
 </p></div></header>
 <div id="wrapper"><div id="container">
 <h1 class="post-title" ><a href="/">Malicious URL Detector</a></h1>
+<center><h5><a href="https://github.com/teambi0s/maldetect">Github Repo</a> | <a href="https://support.virustotal.com/hc/en-us/articles/115002100149-API">VirusTotal API</a></h5></center>
 <hr>
 <center>
 <!-- <h2>Chek URL</h2> -->
